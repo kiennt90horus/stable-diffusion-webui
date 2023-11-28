@@ -11,7 +11,7 @@
 
 export PYTORCH_CUDA_ALLOC_CONF="garbage_collection_threshold:0.6,max_split_size_mb:512"
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-export COMMANDLINE_ARGS="--precision full --no-half --lowvram --xformers --listen --hide-ui-dir-config --port 7861"
+export COMMANDLINE_ARGS="--precision full --no-half --lowvram --xformers --listen --hide-ui-dir-config --port 7861 --administrator"
 
 # python3 executable
 #python_cmd="python3"
