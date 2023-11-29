@@ -25,7 +25,8 @@ fi
 # shellcheck source=/dev/null
 if [[ -f "$SCRIPT_DIR"/webui-user.sh ]]
 then
-    source "$SCRIPT_DIR"/webui-user.sh
+    # source "$SCRIPT_DIR"/webui-user.sh
+    source "$SCRIPT_DIR"/webui-user-admin.sh
 fi
 
 # Set defaults
